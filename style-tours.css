@@ -1,0 +1,103 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+.banners-image {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.10)), url(image/du-lich-sapa-1-.png) !important;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar-brand img {
+  width: 170px;
+  float: left;
+}
+
+.content h1 {
+  font-size: 55px;
+}
+
+.content p {
+  font-size: 30px;
+}
+
+hr {
+  background-color: rgb(55, 197, 197);
+  height: 2.5px;
+  border: none;
+
+}
+.bar {
+  font-weight: 150;
+  font-size: 18px ;
+}
+.fa-check-circle {
+  color: #16569b;
+}
+.card-ticket {
+  background: #e8edf3;
+  width: auto;
+}
+
+.card-ticket :hover {
+  box-shadow: 0px 7px 10px rgb(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.card-ticket h3 {
+  background-image: linear-gradient(#d81d1d, #e64545);
+  border-radius: 5%;
+  border-left: 10px 0;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  position: absolute;
+  bottom: 47%;
+  left: -24%;
+  transform: translate(49%, -470%);
+}
+
+.card-ticket>h4 {
+background-color: rgba(28, 99, 231, 0.405);
+  width: 60px;
+  border-radius: 5px;
+  color: rgb(248, 247, 252);
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  bottom: 1%;
+  left: 12%;
+  transform: translate(-50%, -470%);
+}
+
+.card-body h4 {
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #04192e;
+}
+
+.card-body h5 {
+  font-weight: 900;
+  color: #1975d1;
+}
+.incense h3 {
+  background-image: linear-gradient(#d81d1d, #e64545);
+  border-radius: 5%;
+  border-left: 10px 0;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  position: absolute;
+  bottom: 47%;
+  left: -24%;
+  transform: translate(49%, -520%);
+}
+ .gallery-box h4 {
+ background-color: #1975d1;
+ height: auto;
+ width: auto;
+ }
